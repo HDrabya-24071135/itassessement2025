@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.left-head{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    height: 150px;
+    width: 200px;
+}
+.contact{
+    color: white;
+    font-size: 20px;
+}
+.contact a{
+    color: white;  
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.nav li{
+    list-style: none;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.nav ul a.active{
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+.nav ul a:hover{
+    font-weight: bold;
+    
+}
