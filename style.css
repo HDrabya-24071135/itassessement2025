@@ -273,4 +273,17 @@ body{
     visibility: visible;
 
 }
-
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.right-footer button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    
+}
+.right-footer{
+    padding: 25px 50px ;
+}
