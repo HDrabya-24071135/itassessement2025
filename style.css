@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
      background-color: black;
-
+    font-size: 20px;
 }
 
 .head{
@@ -12,6 +12,7 @@ body{
     position: sticky;
     top: 1px;
     background-color: black;
+    background: linear-gradient(to top, black, blue);
 }
 .left-head{
     display: flex;
@@ -24,6 +25,7 @@ body{
 .contact{
     color: white;
     font-size: 20px;
+    padding-left: 20px;
 }
 .contact a{
     color: white;  
@@ -276,14 +278,18 @@ body{
 .footer{
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to bottom, black, blue);
 }
 .right-footer button{
     width: 150px;
     height: 50px;
     background-color: red;
     color: white;
+    border: 2px solid red;
+    border-radius: 20px;
     
 }
 .right-footer{
     padding: 25px 50px ;
 }
+
